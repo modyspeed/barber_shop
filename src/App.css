@@ -1,0 +1,27 @@
+:root {
+  --color-primary: #d6a354;
+  --color-secondary: #c12828;
+  --color-light: #ffffff;
+  --color-light-secondary: #7fffd4;
+  --color-dark: #000000;
+  --color-dark-light: #717275;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+}
