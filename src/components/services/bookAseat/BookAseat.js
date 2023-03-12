@@ -3,7 +3,7 @@ import "./BookAseat.css";
 
 const BookAseat = () => {
   return (
-    <div className="bookAseat">
+    <div className="bookAseat my-5">
       <div className="form ">
         <Container>
           <div className="formTitle text-center">
