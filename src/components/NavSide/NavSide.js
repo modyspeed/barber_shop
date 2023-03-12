@@ -6,8 +6,8 @@ import { NavLink } from 'react-router-dom';
 const NavSide = () => {
   return (
   <>
-      <Navbar className="navBar text-center" sticky="left">
-          <Container className="flex-column justify-content-center align-items-center gap-5">
+      <Navbar className="navBar text-center " sticky="top" >
+          <Container className="flex-column justify-content-center align-items-center gap-5 ">
             <Navbar.Brand href="#home"><img src={logo} alt="logo" /></Navbar.Brand>
             <Nav className="flex-column">
               <Nav.Link as ={ NavLink} to="/">Home</Nav.Link>

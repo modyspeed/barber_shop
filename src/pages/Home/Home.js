@@ -5,8 +5,8 @@ import BestHairdressersSection from "./../../components/home/BestHairdressersSec
 
 const Home = () => {
   return (
-    <div className=" flex-column align-items-center gap-2">
-      {/* <BarberShopSection /> */}
+    <div className="">
+      <BarberShopSection />
       <BestHairdressersSection />
     </div>
   );

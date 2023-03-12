@@ -7,10 +7,10 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <div className="d-flex ">
+        <div className="d-flex  ">
           <NavSide />
 
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column  flex-grow-1 ">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/story" element={<OurStory />} />
