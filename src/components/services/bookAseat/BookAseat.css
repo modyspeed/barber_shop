@@ -1,0 +1,60 @@
+.bookAseat {
+  background-image: url("../../../assets/images/vintage-chair-barbershop.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  margin-top: 50px;
+  padding: 20px;
+  width: 70%;
+  height: 70%;
+  top: 50%;
+  left: 50%;
+  background-color: var(--color-light);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.formTitle h1 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.formTitle p {
+  font-weight: 400;
+  font-size: 25px;
+  color: var(--color-dark-light);
+}
+
+input,
+select {
+  outline: none;
+  border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  margin: 5px 0;
+  width: 100%;
+}
+
+input:hover {
+  background-color: var(--color-light-secondary);
+}
