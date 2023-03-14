@@ -2,7 +2,7 @@ import "./MapLocation.css"
 
 const MapLocation = (props) => {
   return (
-    <div className="d-flex justify-content-center align-items-center my-4">
+    <div className="d-flex justify-content-center align-items-center my-5">
       <iframe
           title="This is a unique title"
           src={props.location}

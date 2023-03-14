@@ -1,27 +1,27 @@
-.head {
-  padding: 50px 0;
+.hairdressers-head {
+  padding:0 0 50px 0;
   border-bottom: 1px solid var(--color-dark-light);
   margin: 20px 0;
 }
 
-.head h2 {
-  font-size: 40px;
+.hairdressers-head> h2 {
+  font-size: 30px;
   font-weight: 900;
 }
 
-.head p {
+.hairdressers-head> p {
   color: var(--color-dark-light);
   font-size: 20px;
   margin: 20px 0;
 }
 
-.head p span {
+.hairdressers-head >p> span {
   color: var(--color-primary);
   cursor: pointer;
 }
 
-.Babers h4 {
-  margin-bottom: 20px;
+.Babers> h4 {
+  margin-bottom: 100px;
 }
 
 

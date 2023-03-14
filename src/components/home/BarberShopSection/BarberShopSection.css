@@ -1,8 +1,7 @@
 .homeWraper {
-  flex: auto;
   background-image: url("../../../assets/images/client-doing-hair-cut-barber-shop-salon.jpg");
   height: 100vh;
-
+  width: 100%;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -19,19 +18,22 @@
   background-image: linear-gradient(to right, rgba(214, 162, 84, 0.6), rgba(128, 255, 212, 0.67));
 
 }
-
-.homeWraper h1 {
+.homeWraper .homeWraper-info{
+  margin-top: 35%;
+}
+.homeWraper .homeWraper-info> h1 {
   font-size: 70px;
   font-weight: 900;
   color: var(--color-light);
 
 }
 
-.homeWraper p {
-  font-size: 30px;
+.homeWraper .homeWraper-info> p {
+  font-size: 25px;
+  color:var(--color-dark) ;
 }
 
-.homeWraper button {
+.homeWraper .homeWraper-info> button {
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -39,26 +41,22 @@
   -o-border-radius: 25px;
 }
 
-.homeWraper button {
+.homeWraper .homeWraper-info> button {
   width: 140px;
 }
 
-.homeWraper button:hover {
+.homeWraper .homeWraper-info>button:hover {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
 }
 
-.info {
-  position: absolute;
-  top: 20%;
-  left: 10%;
-}
+
 
 .hurry-up {
   position: absolute;
   width: 400px;
   height: 400px;
-  right: -50px;
+  right: -100px;
   bottom: -70px;
   border: 10px solid var(--color-primary);
   border-radius: 50%;

@@ -1,0 +1,15 @@
+.footer>p>span{
+  cursor: pointer;
+  color: var(--color-primary);
+  font-weight: 900;
+  font-size: 22px;
+}
+.up{
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+.up:hover{
+  background-color: var(--color-light);
+  color:  var(--color-secondary);
+  border-color:  var(--color-secondary);
+}

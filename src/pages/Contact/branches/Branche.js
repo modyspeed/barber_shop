@@ -3,8 +3,8 @@ import "./Branche.css"
 
 const Branche = (props) => {
   return (
-    <div>
-      <Title title={props.title}/>
+    <div className="brnche">
+      <Title title={props.title} color={props.color} size={props.size}/>
       <p>{props.location}</p>
     </div>
   )

@@ -5,14 +5,11 @@ const BarberShopSection = () => {
   return (
     <div className="homeWraper">
       <div className="overlay">
-      <Container>
-          <div className="info">
-            <h1>
-              Barber <br />
-              Shop
-            </h1>
+        <Container>
+          <div className="homeWraper-info">
+            <h1>Barber Shop</h1>
             <p>Get the most professional haircut for you</p>
-        
+
             <div>
               <Button variant="outline-light" className="mx-2  ">
                 About Us
@@ -22,7 +19,7 @@ const BarberShopSection = () => {
               </Button>
             </div>
           </div>
-      </Container>
+        </Container>
         <div className="hurry-up">
           <div className="hurry-up-img"></div>
           <div className="hurry-up-content">
@@ -36,7 +33,6 @@ const BarberShopSection = () => {
         </div>
       </div>
     </div>
-    // <h1>gdfg</h1>
   );
 };
 
