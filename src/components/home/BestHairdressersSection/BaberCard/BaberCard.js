@@ -14,7 +14,7 @@ const BaberCard = (props) => {
               <div className="BaberCard-social d-flex align-items-center justify-content-between  gap-2  ">
             {props.social}
             
-              {/* <Button  className="d-flex justify-content-center align-items-center rounded-circle socialContainer">2</Button> */}
+              <Button  className="d-flex justify-content-center align-items-center rounded-circle socialContainer">2</Button>
               </div>
             </div>
           </div>
