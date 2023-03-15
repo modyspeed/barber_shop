@@ -6,7 +6,7 @@ import image1 from "../../assets/images/services/boy-getting-haircut-salon-front
 import image2 from "../../assets/images/services/hairdresser-grooming-client.jpg";
 import image3 from "../../assets/images/services/hairdresser-grooming-their-client.jpg";
 import image4 from "../../assets/images/services/woman-cutting-hair-man-salon.jpg";
-import BookAseat from "../../components/services/bookAseat/BookAseat";
+
 const Services = () => {
   const serviceProps = [
     { name: "Hair cut", price: "36.00", image: image1 },
@@ -19,12 +19,12 @@ const Services = () => {
       <Title title="Services" />
       <Row sm={1} md={2} lg={2} className="d-flex ">
         {serviceProps.map((item) => (
-          <Col>
-            <ServiceCard key={item.name} {...item} />
+          <Col key={item.name}>
+            <ServiceCard  {...item} />
           </Col>
         ))}
       </Row>
-      <BookAseat/>
+      
     </Container>
   );
 };

@@ -1,24 +1,12 @@
-
-
-.social svg {
-  width:40px;
+.socialContainer{
+  width: 40px;
   height: 40px;
-  border-radius: 50%;
-  -webkit-border-radius:50% ;
-  -moz-border-radius:50% ;
-  -ms-border-radius:50% ;
-  -o-border-radius:50% ;
-  color: var(--color-secondary);
-  transition: .5s;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
-  margin: 0 5px;
-
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+color: var(--color-light);
 }
-
-.social svg:hover {
+.socialContainer:hover{
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
   cursor: pointer;
-  color: var(--color-primary);
 }

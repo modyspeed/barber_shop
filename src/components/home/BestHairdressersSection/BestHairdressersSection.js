@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import BaberCard from "./BaberCard/BaberCard";
 import "./BestHairdressersSection.css";
 import { FaFacebook, FaInstagram, FaWhatsappSquare } from "react-icons/fa";
@@ -9,12 +9,29 @@ const BestHairdressersSection = () => {
     {
       name: "ahmed",
       image: img1,
-      social:[<FaFacebook/>,<FaInstagram/>,<FaWhatsappSquare/>]
+      social: [
+        <Button className="d-flex justify-content-center align-items-center rounded-circle socialContainer">
+          <FaFacebook />
+        </Button>,
+        <Button className="d-flex justify-content-center align-items-center rounded-circle socialContainer">
+          <FaInstagram />
+        </Button>,
+        <Button className="d-flex justify-content-center align-items-center rounded-circle socialContainer">
+          <FaWhatsappSquare />
+        </Button>,
+      ],
     },
     {
       name: "mohamed",
       image: img2,
-      social:[<FaFacebook/>,<FaInstagram/>]
+      social: [
+        <Button className="d-flex justify-content-center align-items-center rounded-circle socialContainer">
+          <FaFacebook />
+        </Button>,
+        <Button className="d-flex justify-content-center align-items-center rounded-circle socialContainer">
+          <FaInstagram />
+        </Button>,
+      ],
     },
   ];
   return (
@@ -30,11 +47,21 @@ const BestHairdressersSection = () => {
       </div>
       <div className="Babers">
         <h4 className="text-danger ">Meet Babers</h4>
-        <div className="d-flex justify-content-around align-items-baseline my-5">
+        <Row
+          sm={1}
+          xs={1}
+          md={2}
+          lg={3}
+          className="d-flex justify-content-lg-around align-items-center justify-content-sm-center justify-content-md-around  gap-sm-5 gap-5 gap-md-5 "
+        >
           {dataProps.map((item) => {
-            return <BaberCard key={item.name} {...item} />;
+            return (
+              <Col key={item.name} >
+                <BaberCard key={item.name} {...item} />
+              </Col>
+            );
           })}
-        </div>
+        </Row>
       </div>
     </Container>
   );

@@ -24,6 +24,17 @@
   margin-bottom: 100px;
 }
 
-
+.socialContainer{
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+color: var(--color-light);
+}
+.socialContainer:hover{
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  cursor: pointer;
+}
 
 

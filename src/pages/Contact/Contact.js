@@ -1,13 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Social from "../../components/Social/Social";
-import {
-  FaHome,
-  FaFacebook,
-  FaTwitter,
-  FaYoutube,
-  FaInstagram,
-  FaWhatsappSquare,
-} from "react-icons/fa";
+import {  FaHome} from "react-icons/fa";
 import Title from "../../components/title/Title";
 import "./Contact.css";
 import ContactCard from "../../components/ContactCard/ContactCard";
@@ -16,13 +9,7 @@ import Branche from "./branches/Branche";
 import Footer from "../../components/Footer/Footer";
 
 const Contact = () => {
-  const social = [
-    <FaFacebook />,
-    <FaTwitter />,
-    <FaInstagram />,
-    <FaYoutube />,
-    <FaWhatsappSquare />,
-  ];
+
   return (
     <Container className=" mt-5 ">
       <Row sm={1} md={2} lg={2} className=" justify-content-between align-items-center">
@@ -31,7 +18,7 @@ const Contact = () => {
             <Title title="Contact Information" />
             <p>(+49) 120-240-3600</p>
             <p>hello@barber.beauty</p>
-            <Social social={social} />
+            <Social  />
           </div>
       </Col>
       <Col>
