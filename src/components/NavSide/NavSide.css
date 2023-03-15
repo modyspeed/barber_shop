@@ -1,11 +1,7 @@
 .navBar {
   background-color: var(--color-primary);
   min-height: 100vh;
-<<<<<<< HEAD
   max-width: 20vw;
-=======
-  max-width: 35vw;
->>>>>>> e752c1ca66739d039ecb4a3f4767bb7965805a94
   box-shadow: inset 0px 0px 33px 0px;
 
 
