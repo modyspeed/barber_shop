@@ -15,17 +15,19 @@ const Services = () => {
     { name: "Kids", price: "25.00", image: image4 },
   ];
   return (
-    <Container className="my-5">
-      <Title title="Services" />
-      <Row sm={1} md={2} lg={2} className="d-flex ">
-        {serviceProps.map((item) => (
-          <Col key={item.name}>
-            <ServiceCard  {...item} />
-          </Col>
-        ))}
-      </Row>
-      
-    </Container>
+  <section id="SERVICES" className="my-5">
+      <Container >
+        <Title title="Services" />
+        <Row sm={1} xs={1} md={2} lg={2} className="d-flex ">
+          {serviceProps.map((item) => (
+            <Col key={item.name}>
+              <ServiceCard  {...item} />
+            </Col>
+          ))}
+        </Row>
+        
+      </Container>
+  </section>
   );
 };
 

@@ -3,7 +3,7 @@ import  './OurStory.css'
 
 const OurStory = () => {
   return (
-    <div className='ourStory'>
+    <section id='STORY' className='ourStory'>
       <div className='overLay'>
         <div className='info '>
           <h2>Get 32% Discount</h2>
@@ -11,7 +11,7 @@ const OurStory = () => {
           <span>Promo Code: BarBerMo</span>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

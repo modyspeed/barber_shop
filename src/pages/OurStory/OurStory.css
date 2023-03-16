@@ -27,16 +27,16 @@
   -ms-transform: translate(-50%,-50%);
   -o-transform: translate(-50%,-50%);
 }
-.info h2{
+.info> h2{
   color: var(--color-secondary);
   font-weight: 900;
   font-size: 40px;
 }
-.info p{
+.info> p{
   color: var(--color-light);
   font-size: 30px;
 }
-.info span{
+.info >span{
   width: fit-content;
   padding:5px 20px;
   background-color: var(--color-primary);
@@ -47,4 +47,15 @@
   -o-border-radius: 25px;
   font-weight: 400;
   font-size: 20px;
+}
+@media (max-width:725px) {
+  .info> h2{
+    font-size: 20px;
+  }
+  .info> p{
+    font-size: 14px;
+  }
+  .info >span{
+    font-size: 11px;
+  }
 }

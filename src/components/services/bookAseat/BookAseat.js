@@ -12,8 +12,9 @@ const BookAseat = () => {
           </div>
 
           <Row
-            className="justify-content-between align-items-center text-center mt-5 "
+            className="justify-content-between align-items-center text-center mt-lg-3  "
             md={2}
+            xs={1}
             sm={1}
           >
             <Col>
@@ -51,15 +52,15 @@ const BookAseat = () => {
                 className="p-2 form-control"
               />
             </Col>
-        <Col className="w-100 ">
+        <Col className="w-100 h-50">
               <textarea
                 className=" form-control"
                 placeholder="Comment (Optionals)"
-                style={{height:"200px"}}
+                // style={{height:"200px"}}
               />
         </Col>
           </Row>
-            <div className="submit">Submit</div>
+            <div className="submit ">Submit</div>
         </Container>
       </div>
     </div>

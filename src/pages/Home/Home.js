@@ -5,10 +5,10 @@ import BestHairdressersSection from "./../../components/home/BestHairdressersSec
 
 const Home = () => {
   return (
-    <div className="">
+    <section id="Home">
       <BarberShopSection />
       <BestHairdressersSection />
-    </div>
+    </section>
   );
 };
 

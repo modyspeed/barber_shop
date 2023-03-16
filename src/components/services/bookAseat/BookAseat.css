@@ -22,12 +22,12 @@
   -o-border-radius: 25px;
 }
 
-.formTitle h1 {
+.formTitle> h1 {
   font-weight: 900;
   font-size: 40px;
 }
 
-.formTitle p {
+.formTitle> p {
   font-weight: 400;
   font-size: 25px;
   color: var(--color-dark-light);
@@ -73,7 +73,24 @@ input:hover {
   -ms-transition: .3s;
   -o-transition: .3s;
 }
+textarea{
+  height: 200px;
+}
 .form .submit:hover{
   opacity: .7;
   cursor: pointer;
+}
+@media (max-width:725px) {
+  .formTitle> h1{
+    font-size: 20px;
+  }
+  .formTitle >p{
+font-size: 13px;
+  }
+  textarea{
+    max-height: 50px;
+  }
+  .form .submit{
+    margin: 5px auto;
+  }
 }
