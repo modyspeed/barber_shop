@@ -7,6 +7,7 @@ import img2 from "../../../assets/images/barber/portrait-mid-adult-bearded-male-
 const BestHairdressersSection = () => {
   const dataProps = [
     {
+      id:1,
       name: "ahmed",
       image: img1,
       social: [
@@ -22,6 +23,7 @@ const BestHairdressersSection = () => {
       ],
     },
     {
+      id:2,
       name: "mohamed",
       image: img2,
       social: [
@@ -56,8 +58,8 @@ const BestHairdressersSection = () => {
         >
           {dataProps.map((item) => {
             return (
-              <Col key={item.name} >
-                <BaberCard  {...item} />
+              <Col key={item.id} >
+                <BaberCard  key={item.id} {...item} />
               </Col>
             );
           })}
