@@ -11,3 +11,9 @@
 color: var(--color-secondary);
 cursor: pointer;
 }
+@media (max-width:725px) {
+  .contact-Card{
+    display: flex;
+    justify-content: center;
+  }
+}

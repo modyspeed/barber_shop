@@ -74,7 +74,7 @@ input:hover {
   -o-transition: .3s;
 }
 textarea{
-  height: 200px;
+  height: 300px;
 }
 .form .submit:hover{
   opacity: .7;
@@ -88,9 +88,9 @@ textarea{
 font-size: 13px;
   }
   textarea{
-    max-height: 50px;
+    max-height: 150px;
   }
   .form .submit{
-    margin: 5px auto;
+    margin: 30px auto;
   }
 }

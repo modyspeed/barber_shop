@@ -8,9 +8,13 @@ import PriceList from "./pages/PriceList/PriceList";
 import Contact from "./pages/Contact/Contact";
 import BookAseat from "./components/services/bookAseat/BookAseat";
 import Sayhello from "./pages/PriceList/sayHello/Sayhello";
+import { useEffect } from "react";
 
 function App() {
-  const sections = document.querySelectorAll("section");
+  useEffect(() => {
+   addActiveClass("Home")
+   
+  }, []);
   onscroll = () => {
     var position = document.documentElement.scrollTop;
     sections.forEach((section) => {
@@ -23,6 +27,7 @@ function App() {
       }
     });
   };
+  const sections = document.querySelectorAll("section");
   const removeActiveClass = () => {
     document
       .querySelectorAll(".nav-link")

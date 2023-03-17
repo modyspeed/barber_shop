@@ -52,11 +52,11 @@ const BookAseat = () => {
                 className="p-2 form-control"
               />
             </Col>
-        <Col className="w-100 h-50">
+        <Col className="w-100 h-100">
               <textarea
                 className=" form-control"
                 placeholder="Comment (Optionals)"
-                // style={{height:"200px"}}
+            
               />
         </Col>
           </Row>

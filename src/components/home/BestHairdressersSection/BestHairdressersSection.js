@@ -57,7 +57,7 @@ const BestHairdressersSection = () => {
           {dataProps.map((item) => {
             return (
               <Col key={item.name} >
-                <BaberCard key={item.name} {...item} />
+                <BaberCard  {...item} />
               </Col>
             );
           })}
