@@ -37,6 +37,7 @@ function App() {
     var select = `.nav-link[href="#${id}"]`;
     document.querySelector(select).classList.add("active");
   };
+
   return (
     <div className="d-flex justify-content-xl-evenly">
       <div className=" d-none d-lg-block">
